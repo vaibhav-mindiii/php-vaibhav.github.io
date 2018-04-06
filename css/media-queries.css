@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px){
+    .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    /*#navbar {
+        box-shadow: 0 5px 5px #e0e0e0
+    }*/
+    .navbar-header {
+        position: relative;
+        padding: 0 15px
+    }
+    .navbar-toggle {
+        margin: 0;
+        position: absolute;
+        right: 15px;
+        background: #f5464a;
+    }
+    .mainNav > ul > li > a {
+    font-size: 15px;
+    padding:5px;
+    }
+    .mainNav {
+    width: 100%;
+    margin-top: 20px;
+    }
+    .footerSocial > li, .mainNav, .mainNav > ul, .owl-structure > p, .topNav > ul {
+    display: inline-block;
+    }
+    .mainNav > ul > li, .topNav > ul > li {
+    float: none;
+    }
+    .mainNav>ul>li+li {
+    margin-left: 0px
+    }
+    .mainNav > ul{
+        padding:0;
+    }
+}
